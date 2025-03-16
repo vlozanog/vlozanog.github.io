@@ -8,57 +8,42 @@
     </head>
     <body> 
         <h2 id="titulo">Víctor Lozano</h2>
-        <ul>
-            <li>Major: Software Engineering</li>
-            <li>Year of University Enrollment: 2022</li>
-            <li>Github: <a href="https://github.com/vlozanog">https://github.com/vlozanog</a></li>
-            <li>Personal summary: </li>
-        </ul>
-        <table border="1">
-            <tr>
-                <th>Skill</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Expert</td>
-            </tr>
-            <tr>
-                <td>C</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>C++</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>SQL</td>
-                <td>Expert</td>
-            </tr>
-            <tr>
-                <td>HTML/CSS</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>Excel</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Git</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>English</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Spanish</td>
-                <td>Native</td>
-            </tr>
+
+        <p>
+            Major: Software Engineering
+            <br>
+            Year of University Enrollment: 2022
+            <br>
+            Github: <a href="https://github.com/vlozanog">vlozanog</a>
+        </p>
+
+        <h3>About me:</h3>
+
+        <table>
+            <tr><th>Skill</th><th>Level</th></tr>
+            <tr><td>Python</td><td>Expert</td></tr>
+            <tr><td>C</td><td>Advanced</td></tr>
+            <tr><td>C++</td><td>Advanced</td></tr>
+            <tr><td>JavaScript</td><td>Basic</td></tr>
+            <tr><td>SQL</td><td>Expert</td></tr>
+            <tr><td>HTML/CSS</td><td>Basic</td></tr>
+            <tr><td>Excel</td><td>Advanced</td></tr>
+            <tr><td>Git</td><td>Basic</td></tr>
+            <tr><td>English</td><td>Advanced</td></tr>
+            <tr><td>Spanish</td><td>Native</td></tr>
         </table>
+
+        <input type="text" id="txt">
+
+        <button onclick="showText()">Print</button>
+
+        <p id="result"></p>
+
+        <script>
+            function showText() {
+                let txt = document.getElementById("txt").value;
+                document.getElementById("result").textContent = txt;
+            }
+        </script>
     </body>
 </html>
