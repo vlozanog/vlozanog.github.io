@@ -8,16 +8,38 @@ body {
 }
 
 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+
+.margin {
     margin: 5px;
 }
 
-h3 {
-    margin-top: 5px;
+#data {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutMe {
+    text-align: justify;
+    max-width: 500px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#links {
+    margin-bottom: 8px;
+}
+
+.gray {
+    background-color: #1f1f1f;
 }
 
 table {
-    background-color: #1f1f1f;
     text-align: center;
     margin-bottom: 20px;
     border-collapse: collapse;
@@ -37,12 +59,7 @@ td {
 }
 
 button {
-    background-color: #1f1f1f;
     color: white;
     margin-top: 10px;
     padding: 4px 9px;
-}
-
-script {
-    color: white;
 }

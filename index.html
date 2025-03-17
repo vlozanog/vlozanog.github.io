@@ -2,24 +2,35 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewpoint" content="width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Laboratory 1</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body> 
         <h2 id="titulo">Víctor Lozano</h2>
 
-        <p>
-            <b>Major:</b> Software Engineering
-            <br>
-            <b>Year of University Enrollment:</b> 2022
-            <br>
+        <p id="data" class="margin">
+            <b>Major:</b> Software Engineering<br>
+            <b>Year of University Enrollment:</b> 2022<br>
             <b>Github:</b> <a href="https://github.com/vlozanog">vlozanog</a>
         </p>
 
-        <h3>About me:</h3>
+        <h3 class="margin">About me:</h3>
 
-        <table>
+        <p id="aboutMe" class="margin">
+            I'm an intuitive and responsible person, with a rather shy personality but I'm always committed to what I do.
+            I'm passionate about video games, my all time favorites are Minecraft and Pokemon Emerald.
+            I also really enjoy music, and some of my favorite artists are Sheena Ringo and Tata Barahona.
+            Movies and TV series are another of my great hobbies. My favorite movie is The End of Evangelion 
+            and my favorite TV series is Twin Peaks.
+            I also love reading, especially the Percy Jackson and LOTR sagas.
+        </p>
+
+        <img src="twin-peaks.jpg" alt="Image">
+
+        <a id="links" href="https://www.youtube.com/watch?v=yFMaEIHIrGw">Twin Peaks Intro</a>
+
+        <table class="gray">
             <tr><th>Skill</th><th>Level</th></tr>
             <tr><td>Python</td><td>Expert</td></tr>
             <tr><td>C</td><td>Advanced</td></tr>
@@ -35,7 +46,7 @@
 
         <input type="text" id="txt">
 
-        <button onclick="showText()">Print</button>
+        <button onclick="showText()" class="gray">Print</button>
 
         <p id="result"></p>
 
