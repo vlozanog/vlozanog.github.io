@@ -19,7 +19,6 @@ body {
 #aboutMe {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
-    max-width: 500px;
 }
 
 img {
@@ -30,6 +29,8 @@ img {
 
 #links {
     margin-bottom: 8px;
+    display: block;
+    text-align: center;
 }
 
 .gray {
