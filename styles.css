@@ -76,3 +76,11 @@ button {
     margin-top: 10px;
     padding: 4px 9px;
 }
+
+#news_list a {
+    font-weight: bold;
+}
+
+#news_list p {
+    text-align: justify;
+}
