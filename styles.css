@@ -35,6 +35,7 @@ img {
 
 .gray {
     background-color: #1f1f1f;
+    color: white;
 }
 
 table {
@@ -83,4 +84,31 @@ button {
 
 #news_list p {
     text-align: justify;
+}
+
+.accordion-item {
+    background-color: black;
+    border: 1px solid #333;
+}
+
+.accordion-button {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 10px auto 0;
+}
+
+.accordion-button::after {
+    filter: invert(1);
 }

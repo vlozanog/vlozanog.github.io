@@ -60,9 +60,9 @@
                             <tr><td>Spanish</td><td class="Exp">Native</td></tr>
                         </table>
 
-                        <input type="text" id="txt">
+                        <input type="text" id="txt" class="form-control">
 
-                        <button onclick="showText()" class="gray">Print</button>
+                        <button onclick="showText()" class="btn gray">Print</button>
 
                         <p id="result"></p>
 
@@ -72,6 +72,168 @@
                                 document.getElementById("result").textContent = txt;
                             }
                         </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-md">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h2 class="text-center">My Favorites</h2>
+                        <div class="accordion" id="mainAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#artists">
+                                        Musical Artists
+                                    </button>
+                                </h2>
+                                <div id="artists" class="accordion-collapse collapse show" data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="artist1.jpg" class="card-img-top" alt="Artist 1">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Sheena Ringo</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="artist2.jpg" class="card-img-top" alt="Artist 2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Tata Barahona</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="artist3.jpg" class="card-img-top" alt="Artist 3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">PinkPanthress</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#albums">
+                                        Musical Albums
+                                    </button>
+                                </h2>
+                                <div id="albums" class="accordion-collapse collapse" data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="album1.jpg" class="card-img-top" alt="Album 1">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Kalk Samen Kuri no Hana</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="album2.jpg" class="card-img-top" alt="Album 2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">The New Abnormal</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="album3.jpg" class="card-img-top" alt="Album 3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Twilight</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#movies">
+                                        Movies
+                                    </button>
+                                </h2>
+                                <div id="movies" class="accordion-collapse collapse" data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="movie1.jpg" class="card-img-top" alt="Movie 1">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">The End of Evangelion</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="movie2.jpg" class="card-img-top" alt="Movie 2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Interstellar</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="movie3.jpg" class="card-img-top" alt="Movie 3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Blade Runner 2049</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#series">
+                                        Series
+                                    </button>
+                                </h2>
+                                <div id="series" class="accordion-collapse collapse" data-bs-parent="#mainAccordion">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="twin-peaks.jpg" class="card-img-top" alt="Series 1">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Twin Peaks</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="series2.jpg" class="card-img-top" alt="Series 2">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">March Comes in like a Lion</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="series3.jpg" class="card-img-top" alt="Series 3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Sherlock</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
